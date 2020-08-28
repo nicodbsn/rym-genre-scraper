@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "RYM Genre Scraper",
+    "version": "1.0",
+
+    "description": "Add RateYourMusic genres on SensCritique musical records",
+
+    "icons": {
+        "48": "icons/sc.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["*://*.senscritique.com/*"],
+            "js": ["scraper.js"]
+        }
+    ],
+    "permissions": [
+        "*://*.rateyourmusic.com/album/*",
+        "tabs"
+    ]
+}

@@ -65,7 +65,7 @@ fetch(url).then(response =>  {
     rymGenresSection.innerHTML = `
         <h2 
             id="rym-title"
-        ><i>Vous êtes un robot.. C'est en tout cas ce que pense RateYourMusic. Rendez vous <a href='https://rateyourmusic.com' target=_blank>sur le site</a> pour vérifier la connexion.</i><h2><br>
+        ><i>Tu es un robot.. C'est en tout cas ce que pense RateYourMusic. Rends-toi <a href='https://rateyourmusic.com' target=_blank>sur le site</a> pour vérifier la connexion.</i><h2><br>
     `;
     
     // Display RYM informations under the original details section
